@@ -1,0 +1,87 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, "Helvetica Neue",  Arial, sans-serif;
+  background-color: #F5F5F7;
+  margin:0;
+  padding:20px 30px
+}
+
+/* 1. Unvisited link (Normal state) */
+a:link {
+  color: #0b2a49;          /* Classic blue link color */
+  text-decoration: underline;   /* Removes the default ugly underline */
+}
+
+/* 2. Visited link (A link the user has clicked before) */
+a:visited {
+  color: #551a8b;          /* Soft purple */
+}
+
+/* 3. Hover state (When the mouse moves over the link) */
+a:hover {
+  color: #0050b2;          /* Turns a darker blue */
+  text-decoration: underline; /* Adds the underline back on hover */
+}
+
+/* 4. Active state (The exact millisecond the link is being clicked) */
+a:active {
+  color: #ff0000;          /* Flashes red upon click */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 22pt;
+    color: #1D1D1F;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    font-size: 11pt;
+}
+
+.intro {
+    text-align: center;
+    font-size: 16pt;
+    color: #1D1D1F;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.about-me-text {
+    text-align: justify;
+    color: #1D1D1F;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.interest-card {
+  background: #dddddd; /* Soft Apple off-white background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.interest-card h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #1d1d1f;
+}
+
+.contact-me {
+    text-align: center;
+    margin-top: 20px;
+}
